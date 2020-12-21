@@ -24,7 +24,7 @@ function insertExplicitConcatOperator(expression) {
     }
 
     return output;
-};
+}
 
 function peek(stack) {
     return stack.length && stack[stack.length - 1];
@@ -34,7 +34,7 @@ const operatorPrecedence = {
     '|': 0,
     '.': 1,
     '*': 2,
-};
+}
 
 function toPostfix(exp) {
 
@@ -68,9 +68,9 @@ function toPostfix(exp) {
     }
 
     return output;
-};
+}
 
 module.exports = {
     insertExplicitConcatOperator,
     toPostfix
-};
+}
