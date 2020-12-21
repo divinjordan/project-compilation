@@ -1,4 +1,4 @@
-const { createMatcher } = require('../src/regex');
+const { createMatcher } = require('../src/modules/regex');
 
 describe('createMatcher tests', () => {
     test('from empty string should recognize only empty string', () => {

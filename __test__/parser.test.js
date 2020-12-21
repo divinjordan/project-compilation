@@ -1,7 +1,7 @@
 const {
     insertExplicitConcatOperator,
     toPostfix
-} = require('../src/parser');
+} = require('../src/modules/parser');
 
 describe('insertExplicitConcatSymbol tests', () => {
     test('call with "" should return ""', () => {
